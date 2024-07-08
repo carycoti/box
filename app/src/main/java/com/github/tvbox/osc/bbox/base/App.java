@@ -134,7 +134,7 @@ public class App extends MultiDexApplication {
         putDefault(HawkConfig.LIVE_SHOW_TIME, true);
         putDefaultApis();
 
-        /*
+   
         if (Hawk.contains(HawkConfig.AVAILABLE_PROXY_URL)) {
             Checker.getInstance().checkProxy(isAvailable -> {
                 if (!isAvailable) {
@@ -162,7 +162,7 @@ public class App extends MultiDexApplication {
                 }
             });
         }
-        */
+
     }
 
     private void putDefaultApis() {
